@@ -12,6 +12,7 @@ props.setCardOpen(true)
 
 useEffect(() => {
 detailsData()
+  console.log("dara",process.env)
 }, [])
 
 const detailsData = () =>{
